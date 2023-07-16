@@ -1,5 +1,7 @@
+body{
+    background-color: black;
+}
 header{
-    background-color: blueviolet;
     display: flex;
     width: 100%;
 }
@@ -20,9 +22,80 @@ header ul li a{
     color: white;
 }
 .corpo{
-    background-color: brown;
+    position: fixed;
     display: flex;
     width: 100%;
     height: 100vh;
     font-family: "poppins", cursive;
+}
+.principal{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.principal h2{
+    font-size: 50px;
+    margin-left: 70px;
+    color: white;
+}
+.principal p{
+    margin-left: 70px;
+    font-weight: 500;
+    color: white;
+}
+.principal a{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 19px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.secundario{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 500px;
+    margin-right: 60px;
+}
+.imagem-grande{
+    display: flex;
+    width: 250px;
+    height: 470px;
+    margin: 15px 0 0 160px;
+}
+.thumb{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 500px 0 0 600px;
+    background-color: black;
+    flex-direction: row;
+    width: 230px;
+    height: 80px;
+    gap: 30px;
+}
+.thumb :hover{
+    transform: translateY(1.5px);
+}
+.thumb img{
+    width: 33px;
+}
+.redes{
+    display: flex;
+    position: absolute;
+    margin: 180px 0 0 1410px;
+    flex-direction: column;
+    width: 44px;
+    height: 210px;
+    gap: 20px;
+}
+.redes img{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
 }
