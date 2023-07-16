@@ -6,7 +6,7 @@ header{
     width: 100%;
 }
 header .logo{
-    margin-left: 70px;
+    margin-left: 120px;
 }
 header ul{
     display: flex;
@@ -37,16 +37,16 @@ header ul li a{
 }
 .principal h2{
     font-size: 50px;
-    margin-left: 70px;
+    margin-left: 120px;
     color: white;
 }
 .principal p{
-    margin-left: 70px;
+    margin-left: 120px;
     font-weight: 500;
     color: white;
 }
 .principal a{
-    margin-left: 70px;
+    margin-left: 120px;
     margin-top: 20px;
     font-size: 19px;
     background-color: white;
@@ -66,7 +66,7 @@ header ul li a{
     display: flex;
     width: 250px;
     height: 470px;
-    margin: 15px 0 0 160px;
+    margin: 15px 0 0 150px;
 }
 .thumb{
     display: flex;
@@ -77,13 +77,13 @@ header ul li a{
     flex-direction: row;
     width: 230px;
     height: 80px;
-    gap: 30px;
+    gap: 33px;
 }
 .thumb :hover{
     transform: translateY(1.5px);
 }
 .thumb img{
-    width: 33px;
+    width: 37px;
 }
 .redes{
     display: flex;
