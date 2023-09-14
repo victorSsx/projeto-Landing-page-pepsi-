@@ -7,24 +7,33 @@
         justify-content: space-between;
         align-items: center;
     }
+
     header .logo{
         max-width: 50px;
         margin: 0;
+        margin-left: 5px;
     }
+
     header ul{
         margin: 0;
+        margin-left: 10px;
+        width: 100%;
     }
+
     header ul li{
         padding: 0;
-        padding-right: 8px;
+        padding-right: x;
         padding-left: 5px;
     }
+
     .corpo{
         display: flex;
         flex-direction: column-reverse;
         height: 51em;
         margin: 0;
+        margin-left: 5px;
     }
+
     .corpo .principal{
         width: 100%;
         height: 55%;
@@ -32,43 +41,47 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
+
     .corpo .principal h2{
         font-size: 40px;
         margin: 0;
         margin-top: 20px;
     }
+
     .principal p{
         font-size: 9px;
         margin: 0;
         margin-top: 10px;
     }
+
     .principal a{
         margin: 0;
         margin-top: 30px;
     }
+
     .corpo .secundario{
         width: 100%;
         height: 55%;
         margin: 0;
     }
+
     .imagem-grande{
         max-width: 180px;
         height: 350px;
         margin: 0;
         margin-top: 25px;
-       
     }
+
     .thumb{
         width:100%;
         margin: 0;
     }
+
     .redes{
         position: absolute;
         flex-direction: column;
         margin: 0;
         margin-bottom: 80%;
     }
-
 }

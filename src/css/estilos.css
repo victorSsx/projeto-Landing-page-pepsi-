@@ -1,19 +1,21 @@
 body{
     background-color: black;
-    position: fixed;
+    
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 85em;
 }
+
 header .logo{
     width: 75px;
     margin-left: 40px;
     margin-top: 20px;
-    
 }
+
 header ul{
     display: flex;
     margin-left: 300px;
@@ -22,15 +24,18 @@ header ul{
 header ul li{
    padding-right: 40px;
 }
+
 header ul li a{
     color: white;
 }
+
 .corpo{
     display: flex;
     width: 100%;
     height: 100vh;
     font-family: "poppins", cursive;
 }
+
 .principal{
     width: 60%;
     height: 50%;
@@ -38,16 +43,19 @@ header ul li a{
     flex-direction: column;
     margin-top: 70px;
 }
+
 .principal h2{
     font-size: 50px;
     margin-left: 120px;
     color: white;
 }
+
 .principal p{
     margin-left: 120px;
     font-weight: 500;
     color: white;
 }
+
 .principal a{
     margin-left: 120px;
     margin-top: 20px;
@@ -58,6 +66,7 @@ header ul li a{
     padding: 5px;
     border-radius: 25px;
 }
+
 .secundario{
     display: flex;
     justify-content: center;
@@ -65,12 +74,14 @@ header ul li a{
     height: 500px;
     margin-right: 60px;
 }
+
 .imagem-grande{
     display: flex;
     width: 230px;
     height: 450px;
     margin: 15px 0 0 150px;
 }
+
 .thumb{
     display: flex;
     justify-content: center;
@@ -82,12 +93,15 @@ header ul li a{
     height: 80px;
     gap: 33px;
 }
+
 .thumb :hover{
     transform: translateY(1.5px);
 }
+
 .thumb img{
     width: 37px;
 }
+
 .redes{
     display: flex;
     position: absolute;
@@ -97,6 +111,7 @@ header ul li a{
     height: 210px;
     gap: 20px;
 }
+
 .redes img{
     width: 25px;
     height: 25px;
