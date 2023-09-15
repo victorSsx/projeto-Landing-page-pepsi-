@@ -1,7 +1,8 @@
 @media (max-width: 1299px){
     
     header{
-        width: 115%;
+        background-color: #ff0000;
+        width: 137%;
         height: 4em;
         display: flex;
         justify-content: space-between;
@@ -45,15 +46,18 @@
     }
     
     .corpo{
+        background-color: aqua;
         display: flex;
         flex-direction: column-reverse;
         height: 51em;
         margin: 0;
         margin-left: 5px;
+        width: 137%;
     }
 
     .corpo .principal{
-        width: 115%;
+        background-color: blueviolet;
+        width: 137%;
         height: 55%;
         margin: 0;
         display: flex;
@@ -65,21 +69,25 @@
         font-size: 40px;
         margin: 0;
         margin-top: 20px;
+        margin-right: 25%;
     }
 
     .principal p{
         font-size: 9px;
         margin: 0;
         margin-top: 10px;
+        margin-right: 25%;
     }
 
     .principal a{
         margin: 0;
         margin-top: 25px;
+        margin-right: 25%;
     }
 
     .corpo .secundario{
-        width: 115%;
+        background-color: blue;
+        width: 137%;
         height: 45%;
         margin: 0;
     }
@@ -89,12 +97,13 @@
         height: 290px;
         margin: 0;
         margin-top: 25px;
+        margin-right: 25%;
     }
 
     .thumb{
-        width:115%;
+        width:137%;
         margin: 0;
-        margin-bottom: 22%;
+        margin-bottom: 25%;
     }
 
     .redes{
@@ -102,5 +111,6 @@
         flex-direction: column;
         margin: 0;
         margin-bottom: 120%;
+        margin-left: 10px;
     }
 }
