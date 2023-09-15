@@ -1,8 +1,7 @@
 @media (max-width: 1299px){
     
     header{
-        background-color: #ff0000;
-        width: 137%;
+        width: 135%;
         height: 4em;
         display: flex;
         justify-content: space-between;
@@ -19,7 +18,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
+        padding: 15px 16px;
     }
     .menu-toggle{
         font-size: 24px;
@@ -46,18 +45,15 @@
     }
     
     .corpo{
-        background-color: aqua;
         display: flex;
         flex-direction: column-reverse;
         height: 51em;
         margin: 0;
-        margin-left: 5px;
-        width: 137%;
+        width: 135%;
     }
 
     .corpo .principal{
-        background-color: blueviolet;
-        width: 137%;
+        width: 135%;
         height: 55%;
         margin: 0;
         display: flex;
@@ -69,41 +65,44 @@
         font-size: 40px;
         margin: 0;
         margin-top: 20px;
-        margin-right: 25%;
+        margin-right: 27%;
     }
 
     .principal p{
         font-size: 9px;
         margin: 0;
         margin-top: 10px;
-        margin-right: 25%;
+        margin-right: 27%;
     }
 
     .principal a{
         margin: 0;
         margin-top: 25px;
-        margin-right: 25%;
+        margin-right: 27%;
     }
 
     .corpo .secundario{
-        background-color: blue;
-        width: 137%;
+        width: 135%;
         height: 45%;
         margin: 0;
     }
 
     .imagem-grande{
-        max-width: 140px;
+        max-width: 155px;
         height: 290px;
         margin: 0;
         margin-top: 25px;
-        margin-right: 25%;
+        margin-right: 27%;
     }
 
     .thumb{
-        width:137%;
+        width:135%;
         margin: 0;
         margin-bottom: 25%;
+        gap: 50px;
+    }
+    .thumb img {
+        width: 28px;
     }
 
     .redes{
