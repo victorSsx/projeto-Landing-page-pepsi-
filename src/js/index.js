@@ -1,3 +1,4 @@
-function imgSlider(anything){
-    document.querySelector('.pepsi').src = anything;
-};
+function toggleMenu() {
+    const menu = document.querySelector(`.menu`);
+    menu.classList.toggle(`active`);
+}

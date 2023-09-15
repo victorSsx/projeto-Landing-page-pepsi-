@@ -1,13 +1,13 @@
 body{
     background-color: black;
-    
+    position: fixed;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85em;
+    width: 83em;
 }
 
 header .logo{
@@ -15,18 +15,35 @@ header .logo{
     margin-left: 40px;
     margin-top: 20px;
 }
-
-header ul{
+nav{
+    background-color: #333;
     display: flex;
-    margin-left: 300px;
-    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
-header ul li{
-   padding-right: 40px;
+.menu-toggle{
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
 }
-
-header ul li a{
-    color: white;
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu li {
+    margin: 10px 0;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: #ff0000;
 }
 
 .corpo{
@@ -37,7 +54,7 @@ header ul li a{
 }
 
 .principal{
-    width: 60%;
+    width: 70%;
     height: 50%;
     display: flex;
     flex-direction: column;
