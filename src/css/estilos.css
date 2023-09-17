@@ -92,7 +92,7 @@ nav{
     margin-right: 60px;
 }
 
-.imagem-grande{
+#imagem-grande{
     display: flex;
     width: 230px;
     height: 450px;
